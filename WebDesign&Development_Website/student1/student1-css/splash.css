@@ -1,0 +1,67 @@
+@import "/student1/common/common.css";
+#splash{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/student1/student1-images/Sri_Lanka_main.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  text-shadow: 2px 2px #010357;
+  z-index: 200;
+}
+
+#splash.display-none{
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  z-index: -10;
+  background-image: url(/student1/student1-images/Sri_Lanka_main.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  text-shadow: 2px 2px #010357;
+  transition: all 0.6s;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+#fade-in{
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+#transbox{
+  border-style: none;
+  border-radius: 1rem;
+  background-color: rgb(42, 84, 101,0.8);
+  opacity: 1;
+  padding: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+
+
